@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://img.icons8.com/fluent/48/000000/portfolio.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_weather.css">
+  <link rel="stylesheet" href="btsubmitstyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Pedro Moreira - Presentation</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+</head>
+
+<body>
+  <div class="loader">
+    <div>
+    </div>
+  </div>
+  <div class="content_page">
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#profile">
+              <h1><span>P</span>edro <span>M</span>oreira</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#skills" data-after="skills">Skills</a></li>
+              <li><a href="#projects" data-after="projects">Projects</a></li>
+              <li><a href="#experience" data-after="experience">Work Experience</a></li>
+              <li><a href="#aboutme" data-after="aboutme">About Me</a></li>
+              <li><a href="#contact" data-after="Contact">Contacts</a></li>
+              <li><a href="#extras" data-after="extras">Extras</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="profile">
+      <div class="profile container">
+        <div style="margin-top: 100px;">
+          <h1>Hello,<span></span></h1>
+          <h1>my name is<span></span></h1>
+          <h1>Pedro <span></span></h1>
+          <a href="#projects" type="button" class="cta">PORTFOLIO</a>
+        </div>
+        <div class="slider-container">
+          <div class="slider"></div>
+          <div class="slider"></div>
+          <div class="slider"></div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="skills container">
+        <div class="skill-top">
+          <h1 class="section-title">Sk<span>il</span>ls</h1>
+          <p>My academic degree covers several areas, so I had the opportunity
+            to direct my focus to four skills that, although distinct, complement each other:
+          </p>
+        </div>
+        <div class="skill-bottom">
+          <div class="skill-item" style="background-image: url(./img/hardware.jpg);">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/checkmark.png" /></div>
+            <h2>Hardware Development</h2>
+            <p>Knowledge in Analog and Digital Electronics for the design of electrical circuits
+              for signal acquisition, instrumentation and interfaces with Microcontrollers.
+            </p>
+          </div>
+          <div class="skill-item" style="background-image: url(./img/software.jpg);">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/checkmark.png" /></div>
+            <h2>Software Development</h2>
+            <p>Ability to develop software in C, PHP, JavaScript, VB.NET, C# and MATLAB for the
+              creation of Microcontrollers algorithms, executable applications in Windows&reg;
+              and web applications.
+            </p>
+          </div>
+          <div class="skill-item" style="background-image: url(./img/robotics.png);">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/checkmark.png" /></div>
+            <h2>Automation Engineering</h2>
+            <p>Automatation and Robot programming in harmony with sensors, actuators and image acquisition devices
+              for the design of automated systems that carry out process control or execution of
+              tasks.
+            </p>
+          </div>
+          <div class="skill-item" style="background-image: url(./img/mecengineering.jpg);">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/checkmark.png" /></div>
+            <h2>Mechanical Engineering</h2>
+            <p>Ability to design components or sets of components to perform mechanical tasks and design the respective
+              technical documentation such as technical drawings and 3D modeling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Most relevant<span> Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Support system for the management of maintenance components at Ria Stone"</h2>
+              <p>Project developed within the scope of the Master's Dissertation for the management of inventory
+                components
+                from the Ria Stone maintenance warehouse. Two applications were developed:
+                The first through the Visual Studio&reg; IDE, in the VB.Net language; the second through languages ​​and
+                tools of
+                Web programming such as HTML, PHP and JavaScript. The applications serve to identify,
+                store and collect product records and generate location and operation reports
+                held about
+                the stored products. The application developed by Web programming languages ​​offers agility
+                and speed for product identification, since it can be accessed through any
+                device
+                mobile phone and uses the device's camera to locate QR codes to identify
+                products.</p>
+              <a href="https://drive.google.com/file/d/1l37O7rEZFEXeUtyllyPYtSSAaAmfvEPy/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+              <a href="https://youtu.be/FD497_faQMQ" target="_blank" class="cta2"><i class="fa fa-youtube-play"></i>Demo
+                Video</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_diss.png" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Keychain Machine"</h2>
+              <p>Academic project developed in the area of ​​Industrial Automation whose objective was the design and
+                development of an automated and robotic system for painting a logo on the faces
+                of aluminum sheets. This system involves a feeding station for previously cut sheets,
+                a station for drilling the hole to place the ring, a robotic station for painting the
+                logo
+                on both sides of the plate and a conveyor that ensures the movement of the product between all
+                seasons
+                in
+                work. The system consists of an ABB industrial robot, pneumatic cylinders and respective
+                valves, sensors, a drilling machine, a tactile console and an autotamo.
+              </p>
+              <a href="https://drive.google.com/file/d/1DNACjDlPjleWzV-ya_qV9UlSEM_SI2rW/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+              <a href="https://youtu.be/Z0sTH4l4n9A" target="_blank" class="cta2"><i class="fa fa-youtube-play"></i>Demo
+                Video</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_automacao.png" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Design and Manufacture of a Plastic Injection Mold"</h2>
+              <p>Curricular project developed in the areas of Mechanics, Metalworking and Materials for the design of a
+                mold of
+                plastic injection requested by the company in the municipality of Águeda, Fig-Fábrica de Plásticos, Lda.
+                This project involved the study, design, conception and manufacture of the mold for the manufacture of
+                hinges in
+                Polyamide 6.
+                For the construction of the mold it was necessary to study the area of ​​plastic injection,
+                perform technical drawings of the part, design the mold and all its constituents,
+                manufacture the mold and test the molding cycle. The modeling of the part and all the constituents of
+                the mold
+                he was
+                carried out using the SolidEdge &reg; software, and for the analysis and evaluation of the injection was
+                using MoldFlow&reg; and to
+                simulation and generation of the machining processes of the parts, PowerMill&reg; was used.
+              </p>
+              <a href="https://drive.google.com/file/d/1FEo41PlsTzNu83_xcW2_vt6c1dDGyKs-/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_molde.png" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Two Elevator Optimization System"</h2>
+              <p>Curricular project developed in the areas of Digital Electronics and Electronic Instrumentation for the
+                design and development of a model that simulates two elevators in a four-story building.
+                The work consisted of building the model, implementing the control circuit and programming the
+                system, and the management of the elevators was ensured by the PIC18F26K22 microcontroller, programmed
+                in
+                C, and by Digital Electronics. The system is composed of microswitches that simulate the buttons of
+                call of a real elevator and end-of-course microswitches to provide information on the
+                cabin location. Elevators work automatically and efficiently,
+                since when several requests are made simultaneously, the system calculates the most
+                short for both elevators in order to satisfy the requests.
+              </p>
+              <a href="https://drive.google.com/file/d/1kRp9ARaLZIumVW9YBidpfC8_7j_INHMP/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+              <a href="https://youtu.be/GOM0RxeQpRY" target="_blank" class="cta2"><i class="fa fa-youtube-play"></i>Demo
+                Video</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_elevador.png" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Project of an Electronic Harp"</h2>
+              <p>Thematic project developed in the areas of Analog Electronics for the design and construction of a
+                Electronic Harp based on infrared light beams, which simulate the strings of a real harp and
+                an ordinary loudspeaker to emit the generated sound. Since a harp has 47 or 48 strings, we chose
+                for building a harp with three musical notes, emitted by "strings" simulated by three beams of light
+                infrared. By placing a hand or an object between each of the beams of light, the user causes the
+                emission of a predefined sound
+                of a note. As a musical note is associated with a frequency, the model has the ability to
+                to change
+                octave (doubling the frequency of the musical note), making the harp actually have six notes
+                musicals.
+              </p>
+              <a href="https://drive.google.com/file/d/16dH7nMkaqNciVUrBEmnTKbrNqtLBt2b9/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_harpa.png" alt="img">
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1></h1>
+              <h2>"Project of an Air Treatment Unit"</h2>
+              <p>Curricular project developed in the areas of Fluid Mechanics and Thermal Machines
+                with the aim of sizing, designing, building and testing an air handling unit. One
+                air handling unit is capable of carrying out the combined processes of heating, heating and
+                humidification, cooling and air cooling and humidification, but as the time period for the
+                conception of this project went through months of high temperature and humidity, the machine is only
+                capable of
+                cool and dehumidify the air. That said, the designed machine guarantees a temperature of
+                20ºC and a relative humidity of 40%.
+              </p>
+              <a href="https://drive.google.com/file/d/1jOTNn6bs_tkWgnxM3j5EIPfW5swKt7Jl/view?usp=sharing"
+                target="_blank" class="cta2"><i class="fa fa-file-pdf-o"></i>Documentation</a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p_desumi.png" alt="img">
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="experience">
+      <div class="experience-header">
+        <h1 class="section-title">
+          Work<span> Experience</span>
+        </h1>
+      </div>
+      <div class="experience-container">
+        <div class="experience-item-left">
+          <p>august 2021 - Present (<span id="date_since_start"></span>)</p>
+          <p>Porto, Portugal</p>
+        </div>
+        <div class="experience-item-right">
+          <h1>Industry 4.0 Software Engineer</h1>
+          <h2>Continental Engineering Services Portugal</h2>
+          <p>Software Engineer at Continental Engineering Services Portugal (CES), allocated to the TIGER project in a
+            Continental
+            Lousado team to develop, integrate and implement the middleware service and the respective MES developed by
+            the same
+            team in all Continental plants worldwide. This function is based on several tasks: - Programming and
+            integrating the
+            middleware at the machine level; - Installation of MES clients on virtual machines connected to all
+            machines; -
+            Troubleshoot the databases associated with the two previous activities; - Travel outside of Portugal to mass
+            integrate
+            the solution on all planned machines (Germany, USA, South Africa and Slovakia). In parallel, I am a member
+            of the CES
+            Industry 4.0's team in the development of CES's proprietary solution in the MES branch. Since, in this case,
+            the MES
+            logic and processing are developed in C#, my tasks are to develop and implement concepts in this programming
+            language
+            for the solution to work.</p>
+        </div>
+      </div>
+    </section>
+    <section id="aboutme">
+      <div class="aboutme container">
+        <div class="col-left">
+          <div class="aboutme-img">
+            <img src="./img/IMG_20221006_185412.jpg" alt="img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2></h2>
+          <p>Bachelor's Degree in Electrical Engineering from the Higher School of Technology and Management of Águeda,
+            Polytechnic
+            School of the University of Aveiro. Over the six semesters of this cycle of studies, I had the opportunity
+            to develop skills in the areas of Electrotechnics, Programming, Analog Electronics, Digital Electronics,
+            Industrial Electronics, Thermodynamics, Fluid Mechanics, Materials, Metalworking, Hydraulics, Pneumatics,
+            Automation and Robotics. This course stands out for presenting project-based teaching, with theoretical
+            teaching complemented by real projects based on two Curricular Units. Ten projects were distributed over the
+            six semesters, so there was the opportunity to develop some projects in partnership with some companies in
+            the municipality of Águeda.
+          </p>
+          <p>Master's Degree in Industrial Automation Engineering from the University of Aveiro, a course aimed at
+            skills and interest in the areas of Automation, Programming and Robotics. Throughout the curriculum,
+            it was possible to learn and deepen contents related to Programming, Electronics, Computing
+            Industrial,
+            Automation Engineering, Vision and Perception Systems and Robotics. At the end of the curriculum,
+            decided
+            develop my Dissertation in the areas of Traceability and Programming with high-level languages, in a
+            project developed in
+            partnership with the company from the municipality of Aveiro, Ria Stone. This work consisted of developing
+            interfaces
+            graphics for managing components in the company's maintenance warehouse, a system based on
+            identification of
+            products through QR Codes.
+          </p>
+          <p>
+            Allied to my natural and innate curiosity for Technology and Engineering, the technological evolution that
+            has been witnessed in recent years made me want to choose the academic path I chose, a path that made me
+            increasingly interested and motivated by trends in the areas of Informatics, Programming, Information
+            Technologies, Automation and Robotics.
+          </p>
+          <p>
+            Since august 2021, I've been working as a Software Engineer with experience in developing, implementing and maintaining
+            a proprietary MES solution for Continental Tires. As part of the Rollout team, I have experience in
+            developing programming libraries and integrating them with PLCs, alongside other systems. Additionally, I am
+            part of another team that develops a similar solution but this time around the logic and computing is
+            outside of the PLC, this being developed in C#. My work experience have taught me to thrive in multicultural
+            environments and to work effectively in geographically dispersed teams. Moreover, my involvement in the
+            Rollout team has provided me with extensive experience in working in a team, under tight deadlines and in
+            high-pressure situations, ensuring that my job is delivered on time and to a high standard.
+          </p>
+          <a href="https://drive.google.com/file/d/1o7gDiempvxOySp_28Ku_fKvxIIhByjVn/view?usp=sharing" target="_blank"
+            class="cta">Resume Download
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>Information:</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/plasticine/50/000000/phone.png" /></div>
+            <div class="contact-info">
+              <h1>Mobile Phone</h1>
+              <h2>(00351) 910 367 032</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/doodle/50/000000/apple-mail.png" /></div>
+            <div class="contact-info">
+              <h1>E-mail</h1>
+              <h2>petm.psl@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/doodle/50/000000/home.png" /></div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Rua de Cabo Vila 186, Felgueiras, Porto, Portugal</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="extras">
+      <div class="extras container">
+        <div>
+          <h1 class="section-title">E<span>x</span>tras:</h1>
+        </div>
+        <div class="extras-top">
+          <p>
+            In this section, two extras are presented: a Widget exported from the Strava® platform regarding my last
+            five records of physical activity; the other is a widget developed from scratch to update the weather in
+            real time for any city in the world and the weather forecast for three days, with the information received
+            through the
+            <a target="_blank" href="https://www.weatherapi.com/">weather API</a>.
+          </p>
+        </div>
+        <div class="extras-items">
+          <div class="extras-item">
+            <iframe height='450' width='280' frameborder='0' allowtransparency='true' scrolling='no'
+              src='https://www.strava.com/athletes/66507912/latest-rides/c8d05a6e749d4106ecc2ca3f260a7d40e15d8ce3'>
+            </iframe>
+          </div>
+          <div class="extras-item">
+            <div class="container2">
+              <div class="container__item">
+                <form class="form">
+                  <input id="city_text_input" class="form__field" placeholder="Type in the city name" />
+                  <button id="city_bt_search" onclick="changeAPILocation()" type="button"
+                    class="cta3 cta3--primary cta3--inside uppercase">Request</button>
+                </form>
+              </div>
+              <div class="grid-container">
+                <div class="location-description">
+                  <p><span id="location"></span>, <span id="distrito"></span>, <span id="country"></span></p>
+                </div>
+                <div class="current-weather-icon">
+                  <img src="" id="weather_state" class="img1" class="img1">
+                  <p><span id="weather_desc"></span></p>
+                </div>
+                <div class="current-weather-description">
+                  <p><img style="width: 16px; height: 16px;"
+                      src="https://img.icons8.com/officel/16/000000/temperature-sensitive.png" /><span
+                      id="temperature_c"></span> ºC<br><br></p>
+                  <p><img style="width: 18px; height: 18px;"
+                      src="https://img.icons8.com/fluent/48/000000/wind.png" /><span id="vel_vento"></span> km/h <span
+                      id="dir_vento"></span><br><br></p>
+                  <p><img style="width: 16px; height: 16px;"
+                      src="https://img.icons8.com/fluent/48/000000/water.png" /><span id="forecastday0_rainperc"></span>
+                    %</span><br><br></p>
+                </div>
+                <div class="day1-forecast">
+                  <p style="font-size: 13px;"><span id="forecastday0_date"></span></p>
+                  <p style="font-size: 13px;"><span id="dayofweek0"></span></p>
+                  <img src="" id="weather_state_forecast0" class="img1">
+                  <p><img style="width: 16px; height: 16px;"
+                      src="https://img.icons8.com/fluent/48/000000/water.png" /><span
+                      id="forecastday0_1_rainperc"></span>
+                    %</p>
+                  <p><img style="width: 21px; height: 21px;"
+                      src="https://img.icons8.com/doodle/48/000000/do-not-expose-to-sunlight--v1.png" /><span
+                      id="forecastday0_uv"></span></p>
+                  <p style="font-size: 13px;">Max: <span id="forecastday0_tmax"></span> ºC, Min: <span
+                      id="forecastday0_tmin"></span> ºC
+                  </p>
+                  <p><span id="forecastday0_weather_desc"></span></p>
+                </div>
+                <div class="day2-forecast">
+                  <p style="font-size: 13px;"><span id="forecastday1_date"></span></p>
+                  <p style="font-size: 13px;"><span id="dayofweek1"></span></p>
+                  <img src="" id="weather_state_forecast1" class="img1">
+                  <p><img style="width: 16px; height: 16px;"
+                      src="https://img.icons8.com/fluent/48/000000/water.png" /><span id="forecastday1_rainperc"></span>
+                    %
+                  </p>
+                  <p><img style="width: 21px; height: 21px;"
+                      src="https://img.icons8.com/doodle/48/000000/do-not-expose-to-sunlight--v1.png" /><span
+                      id="forecastday1_uv"></span></p>
+                  <p style="font-size: 13px;">Max: <span id="forecastday1_tmax"></span> ºC, Min: <span
+                      id="forecastday1_tmin"></span> ºC</p>
+                  <p><span id="forecastday1_weather_desc"></span></p>
+                </div>
+                <div class="day3-forecast">
+                  <p style="font-size: 13px;"><span id="forecastday2_date"></span></p>
+                  <p style="font-size: 13px;"><span id="dayofweek2"></span></p>
+                  <img src="" id="weather_state_forecast2" class="img1">
+                  <p><img style="width: 16px; height: 16px;"
+                      src="https://img.icons8.com/fluent/48/000000/water.png" /><span id="forecastday2_rainperc"></span>
+                    %
+                  </p>
+                  <p><img style="width: 21px; height: 21px;"
+                      src="https://img.icons8.com/doodle/48/000000/do-not-expose-to-sunlight--v1.png" /><span
+                      id="forecastday2_uv"></span>
+                  </p>
+                  <p style="font-size: 13px;">Max: <span id="forecastday2_tmax"></span> ºC, Min: <span
+                      id="forecastday2_tmin"></span> ºC
+                  </p>
+                  <p><span id="forecastday2_weather_desc"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="extras-item">
+            <canvas id="myChart" width="700" height="700"></canvas>
+          </div>  -->
+        </div>
+    </section>
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>P</span>edro <span>M</span>oreira</h1>
+        </div>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.linkedin.com/in/petm-77792/" target="_blank"><img
+                src="https://img.icons8.com/plasticine/50/000000/linkedin.png" />
+            </a>
+          </div>
+          <div class="social-item">
+            <a href="https://facebook.com/pedrom0reira" target="_blank"><img
+                src="https://img.icons8.com/plasticine/50/000000/facebook-new.png" />
+            </a>
+          </div>
+          <div class="social-item">
+            <a href="https://instagram.com/pedrom0reira1" target="_blank"><img
+                src="https://img.icons8.com/plasticine/50/000000/instagram-new--v1.png" />
+            </a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.youtube.com/channel/UCoWUVxplmvHIKNt-cBcameg" target="_blank"><img
+                src="https://img.icons8.com/plasticine/100/000000/youtube-music.png" />
+            </a>
+          </div>
+        </div>
+        <p>Copyrights© 2023 Moreira. Every right reserved.</p>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+    <script src="./weather_app.js"></script>
+    <script src="./load_page.js"></script>
+    <script src="./getDate.js"></script>
+  </div>
+</body>
+
+</html>
